@@ -55,13 +55,29 @@
 			isa = PBXGroup;
 			children = (
 				76C23022215C9C880018F78B /* AppDelegate.swift */,
-				76C23024215C9C880018F78B /* ViewController.swift */,
-				76C23026215C9C880018F78B /* Main.storyboard */,
+				76C23035215C9CB20018F78B /* controller */,
+				76C23034215C9CA60018F78B /* storyboard */,
 				76C23029215C9C8B0018F78B /* Assets.xcassets */,
-				76C2302B215C9C8B0018F78B /* LaunchScreen.storyboard */,
 				76C2302E215C9C8B0018F78B /* Info.plist */,
 			);
 			path = ARKitProj;
+			sourceTree = "<group>";
+		};
+		76C23034215C9CA60018F78B /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				76C23026215C9C880018F78B /* Main.storyboard */,
+				76C2302B215C9C8B0018F78B /* LaunchScreen.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		76C23035215C9CB20018F78B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				76C23024215C9C880018F78B /* ViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
